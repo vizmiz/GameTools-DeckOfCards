@@ -23,4 +23,4 @@ class DealDeck:
         return self.ShuffledDeck
 
     def __iter__(self):
-        return iter(self.ShuffleDeck())
+        return iter(self.ShuffledDeck)
